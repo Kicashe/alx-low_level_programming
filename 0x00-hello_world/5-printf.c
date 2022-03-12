@@ -1,10 +1,11 @@
+#incude <stdio.h>
 /**
- *main - Entry point
+ *main -Entry point
  *My hello, printf task
  *Return: return 1 after program execution
- */
-init main(void)
+*/
+int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n);
+printf("with proper grammar, but the outcome is a place of art,\n");
 return (0);
 }
