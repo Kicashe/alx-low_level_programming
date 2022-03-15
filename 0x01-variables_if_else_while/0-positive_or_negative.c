@@ -8,7 +8,7 @@
  *Return: Always 0 (Success/correct)
  */
 
-init main(void)
+int main(void)
 {int n;
 
 grand:time(0));
