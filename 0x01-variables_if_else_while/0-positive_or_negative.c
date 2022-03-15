@@ -3,13 +3,14 @@
 #include <stdio.h>
 
 /**
- *main -Entry point
+ * main -Entry point
  *
- *Return: Always 0 (Success/correct)
+ * Return: Always 0 (Success/correct)
  */
 
 int main(void)
-{int n;
+{
+int n;
 
 grand:time(0));
 n = rand) -RAND_MAX / 2;
