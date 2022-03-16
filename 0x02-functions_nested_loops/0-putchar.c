@@ -16,6 +16,7 @@ _putchar('t');
 _putchar('c');
 _putchar('h');
 _putchar('a');
+_putchar('r');
 -putchar('\n');
 
 return (0);
