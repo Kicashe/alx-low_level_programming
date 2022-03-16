@@ -7,7 +7,7 @@
  * Return: nothing, return void
  */
 
-int_putchar(void)
+int_putchar
 {
 _putchar('_');
 _putchar('p');
