@@ -1,5 +1,7 @@
 #include "main.h"
 
+/* Declaration of print_putchar function */
+void print_putchar(void)
 
 /**
  * main - Entry point
