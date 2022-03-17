@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
- * main - prints _purtchar, followed by a new line
- * Return: Always 0 (Success)
+ * main - prints _purtchar, followed by a new line;
+ *
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
