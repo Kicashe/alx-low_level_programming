@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - prints triangle
- *@size: print size
+ * @size: print size
  * Return: Always 0.
  */
 
@@ -14,6 +14,7 @@ int i;
 int z;
 int d;
 int p;
+
 if (size > 0)
 {
 d = size -1;
