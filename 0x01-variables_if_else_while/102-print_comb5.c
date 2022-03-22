@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Return: Always 0 (success/correct)
  */
 int main(void)
@@ -18,6 +19,12 @@ for (second_nums = first_nums + 1 ; second_nums < 100; second_nums++)
 {
 
 putchar (first_nums / 10 + '0');
+putchar (first_nums % 10 + '0');
+
+
+putchar (' ');
+
+putchar (second_nums / 10 + '0');
 putchar (second_nums % 10 + '0');
 
 
