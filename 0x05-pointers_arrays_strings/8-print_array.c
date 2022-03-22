@@ -3,6 +3,7 @@
 /**
  *print_array - prints n elements of an array of integers
  *@: A pointer to an int that will be updated/ changed
+ *@n: return value n
  *Return: void which, means our answer is correct
  */
 
