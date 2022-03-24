@@ -16,7 +16,7 @@ case ' ':
 case '\t':
 case '\n':
 case ',':
-case ',':
+case ';':
 case '.':
 case '!':
 case '?':
