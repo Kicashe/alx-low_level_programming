@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * separators - checks and ensure that all string is capitalised
+ * separators - checks and ensure that all string is capitalized
  * @c: character to be checked
  * Return: if separator return 1. Otherwise return 0;
  */
@@ -34,7 +34,7 @@ return (0);
 
 }
 /**
- * cap_string - capitalises all words of a string
+ * cap_string - capitalizes all words of a string
  * @s: string to uppercase
  * Return: returns the modified string
  */
