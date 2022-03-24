@@ -4,7 +4,7 @@
  * separators - cheeks and ensure that all string is capitalised
  * @c: character to be checked
  * Return: if separator return 1. Otherwise return 0;
-*/
+ */
 
 
 int separator(char c)
