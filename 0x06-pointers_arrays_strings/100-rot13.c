@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rot 13 - encodes a string using rot13
+ * rot13 - encodes a string using rot13
  * @s: input string.
  * Return: the pointer to dest.
  */
@@ -24,5 +24,6 @@ break;
 }
 count++;
 }
+
 return (s);
 }
