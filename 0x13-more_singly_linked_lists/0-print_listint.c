@@ -1,32 +1,21 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
- * main - check the code for ALX School students.
+ * print_listint - prints all the elements of a linked list
+ * @h: linked list of type listint_t to print
  *
- * Return: Always 0.
+ * Return: number of nodes
  */
-int main(void)
+size_t print_listint(const listint_t *h)
 {
-  listint_t *head;
-  listint_t *new;
-  listint_t hello = {8, NULL};
-  size_t n;
+    size_t num = 0;
 
-  head = &hello;
-  new = malloc(sizeof(listint_t));
-  if (new == NULL)
+    while (h)
     {
-      printf("Error\n");
-      return (1);
+        printf("%d\n", h->n);
+        num++;
+        h = h->next;
     }
-  new->n = 9;
-  new->next = head;
-  head = new;
-  n = print_listint(head);
-  printf("-> %lu elements\n", n);
-  free(new);
-  return (0);
+
+    return (num);
 }
